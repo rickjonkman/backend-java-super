@@ -5,4 +5,14 @@ public class GrassPokemon extends Pokemon {
         super(name, xp, hp, sound, food);
         this.poison = poison;
     }
+
+    public int
+
+    public int getPoison() {
+        return poison;
+    }
+
+    public void setPoison(int poison) {
+        this.poison = poison;
+    }
 }

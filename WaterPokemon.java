@@ -5,4 +5,17 @@ public class WaterPokemon extends Pokemon {
         super(name, xp, hp, sound, food);
         this.water = water;
     }
+
+    public int drinkWater(WaterPokemon waterPokemon) {
+        System.out.println(waterPokemon + " is drinking water.");
+        return water += 10;
+    }
+
+    public int getWater() {
+        return water;
+    }
+
+    public void setWater(int water) {
+        this.water = water;
+    }
 }
