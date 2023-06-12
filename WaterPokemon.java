@@ -10,7 +10,7 @@ public class WaterPokemon extends Pokemon {
 //      OVERRIDE METHODS VAN DE SUPER CLASS
     @Override
     public void toEat() {
-        System.out.println(waterPokemon + " is eating " + getFood());
+        System.out.println(this.getName() + " is eating " + this.getFood());
     }
 
     @Override
